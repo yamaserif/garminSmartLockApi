@@ -1,0 +1,52 @@
+<strings>
+    <string id="AppName" scope="foreground">garminSmartLockApi</string>
+    <string id="AppVersionTitle" scope="foreground">1.0.0</string>
+
+
+    <string id="CheckApiGroup" scope="foreground">現在状態取得機能の設定</string>
+    <string id="CheckApiGroupDescription" scope="foreground">現在状態取得機能に関連する設定項目</string>
+
+    <string id="CheckApiString" scope="foreground">WebAPI呼び出しURI(現在状態取得)</string>
+    <string id="CheckApiPostParamsJson" scope="foreground">現在状態取得WebAPIのPOSTパラメータ(JSON形式で記入)</string>
+
+    <string id="CheckApiParamLockedKey" scope="foreground">現在状態取得WebAPIにて「施錠済」を表すパラメータのキー</string>
+    <string id="CheckApiParamLockedValue" scope="foreground">現在状態取得WebAPIにて「施錠済」を表すパラメータの値</string>
+
+    <string id="CheckApiParamUnlockedKey" scope="foreground">現在状態取得WebAPIにて「解錠済」を表すパラメータのキー</string>
+    <string id="CheckApiParamUnlockedValue" scope="foreground">現在状態取得WebAPIにて「解錠済」を表すパラメータの値</string>
+
+    <string id="CheckApiParamMovingKey" scope="foreground">現在状態取得WebAPIにて「作動中」を表すパラメータのキー</string>
+    <string id="CheckApiParamMovingValue" scope="foreground">現在状態取得WebAPIにて「作動中」を表すパラメータの値</string>
+
+
+    <string id="MoveApiGroup" scope="foreground">鍵の動作設定</string>
+    <string id="MoveApiGroupDescription" scope="foreground">鍵の動作に関連する設定項目</string>
+
+    <string id="IsToggle" scope="foreground">トグル機能のAPIを使用する</string>
+
+    <string id="ToggleApiString" scope="foreground">WebAPI呼び出しURI(トグル動作)</string>
+    <string id="ToggleApiPostParamsJson" scope="foreground">トグル動作WebAPIのPOSTパラメータ(JSON形式で記入)</string>
+
+    <string id="LockApiString" scope="foreground">WebAPI呼び出しURI(施錠動作)</string>
+    <string id="LockApiPostParamsJson" scope="foreground">施錠動作WebAPIのPOSTパラメータ(JSON形式で記入)</string>
+
+    <string id="UnlockApiString" scope="foreground">WebAPI呼び出しURI(解錠動作)</string>
+    <string id="UnlockApiPostParamsJson" scope="foreground">解錠動作WebAPIのPOSTパラメータ(JSON形式で記入)</string>
+    
+
+    <string id="RefreshApiGroup" scope="foreground">表示情報更新の設定</string>
+    <string id="RefreshApiGroupDescription" scope="foreground">表示情報更新に関連する設定項目</string>
+
+    <string id="DataUpdateTimeSecGlance" scope="foreground">ウィジェット一覧画面の更新頻度(秒)</string>
+    <string id="DataUpdateTimeSecMain" scope="foreground">アプリ画面の更新頻度(秒)</string>
+
+
+    <string id="Locked" scope="foreground">施錠済</string>
+    <string id="Unlocked" scope="foreground">解錠済</string>
+    <string id="Moving" scope="foreground">作動中</string>
+
+    <string id="LockedGlance" scope="glance">施錠済</string>
+    <string id="UnlockedGlance" scope="glance">解錠済</string>
+    <string id="MovingGlance" scope="glance">作動中</string>
+
+</strings>

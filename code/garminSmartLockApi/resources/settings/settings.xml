@@ -1,0 +1,73 @@
+<settings>
+
+    <setting propertyKey="@Properties.appVersionProp" title="@Strings.AppVersionTitle">
+        <settingConfig type="alphaNumeric" readonly="true" />
+    </setting>
+
+    <group id="checkApi" title="@Strings.CheckApiGroup" description="@Strings.CheckApiGroupDescription">
+        <setting propertyKey="@Properties.checkApiStringProp" title="@Strings.CheckApiString">
+            <settingConfig type="url" />
+        </setting>
+        <setting propertyKey="@Properties.checkApiPostParamsJsonProp" title="@Strings.CheckApiPostParamsJson">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+
+        <setting propertyKey="@Properties.checkApiParamLockedKeyProp" title="@Strings.CheckApiParamLockedKey">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.checkApiParamLockedValueProp" title="@Strings.CheckApiParamLockedValue">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+
+        <setting propertyKey="@Properties.checkApiParamUnlockedKeyProp" title="@Strings.CheckApiParamUnlockedKey">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.checkApiParamUnlockedValueProp" title="@Strings.CheckApiParamUnlockedValue">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+
+        <setting propertyKey="@Properties.checkApiParamMovingKeyProp" title="@Strings.CheckApiParamMovingKey">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.checkApiParamMovingValueProp" title="@Strings.CheckApiParamMovingValue">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+    </group>
+
+    <group id="moveApi" title="@Strings.MoveApiGroup" description="@Strings.MoveApiGroupDescription">
+        <setting propertyKey="@Properties.isToggleProp" title="@Strings.IsToggle">
+            <settingConfig type="boolean" />
+        </setting>
+
+        <setting propertyKey="@Properties.toggleApiStringProp" title="@Strings.ToggleApiString">
+            <settingConfig type="url" />
+        </setting>
+        <setting propertyKey="@Properties.toggleApiPostParamsJsonProp" title="@Strings.ToggleApiPostParamsJson">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+
+        <setting propertyKey="@Properties.lockApiStringProp" title="@Strings.LockApiString">
+            <settingConfig type="url" />
+        </setting>
+        <setting propertyKey="@Properties.lockApiPostParamsJsonProp" title="@Strings.LockApiPostParamsJson">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+
+        <setting propertyKey="@Properties.unlockApiStringProp" title="@Strings.UnlockApiString">
+            <settingConfig type="url" />
+        </setting>
+        <setting propertyKey="@Properties.unlockApiPostParamsJsonProp" title="@Strings.UnlockApiPostParamsJson">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+    </group>
+
+    <group id="refreshApi" title="@Strings.RefreshApiGroup" description="@Strings.RefreshApiGroupDescription">
+        <setting propertyKey="@Properties.dataUpdateTimeSecGlanceProp" title="@Strings.DataUpdateTimeSecGlance">
+            <settingConfig type="numeric" />
+        </setting>
+        <setting propertyKey="@Properties.dataUpdateTimeSecMainProp" title="@Strings.DataUpdateTimeSecMain">
+            <settingConfig type="numeric" />
+        </setting>
+    </group>
+
+</settings>

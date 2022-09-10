@@ -1,0 +1,52 @@
+<strings>
+    <string id="AppName" scope="foreground">garminSmartLockApi</string>
+    <string id="AppVersionTitle" scope="foreground">1.0.0</string>
+
+
+    <string id="CheckApiGroup" scope="foreground">Current status acquisition function setting.</string>
+    <string id="CheckApiGroupDescription" scope="foreground">Setting items related to the current status acquisition function.</string>
+
+    <string id="CheckApiString" scope="foreground">WebAPI call URI.(get current status)</string>
+    <string id="CheckApiPostParamsJson"> scope="foreground"POST parameter of the current status acquisition WebAPI.(filled in JSON format)</string>
+
+    <string id="CheckApiParamLockedKey" scope="foreground">Key of parameter indicating "locked" in the current status acquisition WebAPI.</string>
+    <string id="CheckApiParamLockedValue" scope="foreground">Value of parameter indicating "locked" in the current status acquisition WebAPI.</string>
+
+    <string id="CheckApiParamUnlockedKey" scope="foreground">Key of parameter indicating "unlocked" in the Get Current Status WebAPI.</string>
+    <string id="CheckApiParamUnlockedValue" scope="foreground">Value of parameter indicating "unlocked" in the current status acquisition WebAPI.</string>
+
+    <string id="CheckApiParamMovingKey" scope="foreground">Key of parameter indicating "Moving" in the Get Current Status WebAPI.</string>
+    <string id="CheckApiParamMovingValue" scope="foreground">Value of parameter indicating "Moving" in the current status acquisition WebAPI.</string>
+
+
+    <string id="MoveApiGroup" scope="foreground">Key operation setting.</string>
+    <string id="MoveApiGroupDescription" scope="foreground">Setting items related to key operation.</string>
+
+    <string id="IsToggle" scope="foreground">Use the API for the Toggle function.</string>
+
+    <string id="ToggleApiString" scope="foreground">WebAPI call URI.(toggle operation)</string>
+    <string id="ToggleApiPostParamsJson" scope="foreground">POST parameter for toggle operation WebAPI.(fill in JSON format)</string>
+
+    <string id="LockApiString" scope="foreground">WebAPI call URI.(locking operation)</string>
+    <string id="LockApiPostParamsJson" scope="foreground">POST parameter of locking operation WebAPI.(fill in JSON format)</string>
+
+    <string id="UnlockApiString" scope="foreground">WebAPI call URI.(unlock operation)</string>
+    <string id="UnlockApiPostParamsJson" scope="foreground">POST parameter of unlock operation WebAPI.(fill in JSON format)</string>
+    
+
+    <string id="RefreshApiGroup" scope="foreground">Display information update setting.</string>
+    <string id="RefreshApiGroupDescription" scope="foreground">Setting items related to display information update.</string>
+
+    <string id="DataUpdateTimeSecGlance" scope="foreground">Refresh frequency of the widget list screen.(sec)</string>
+    <string id="DataUpdateTimeSecMain" scope="foreground">Refresh frequency of app screen updates.(sec)</string>
+
+
+    <string id="Locked" scope="foreground">LOCKED</string>
+    <string id="Unlocked" scope="foreground">UNLOCKED</string>
+    <string id="Moving" scope="foreground">MOVING</string>
+
+    <string id="LockedGlance" scope="glance">LOCKED</string>
+    <string id="UnlockedGlance" scope="glance">UNLOCKED</string>
+    <string id="MovingGlance" scope="glance">MOVING</string>
+
+</strings>

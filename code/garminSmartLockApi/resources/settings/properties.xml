@@ -1,0 +1,30 @@
+<properties>
+    <property id="appVersionProp" type="string">1.0.0</property>
+
+    <property id="checkApiStringProp" type="string">https://httpbin.org/anything/checkApiString</property>
+    <property id="checkApiPostParamsJsonProp" type="string">{\"hoge\":\"huga\"}</property>
+
+    <property id="checkApiParamLockedKeyProp" type="string">data</property>
+    <property id="checkApiParamLockedValueProp" type="string">LockedValue</property>
+
+    <property id="checkApiParamUnlockedKeyProp" type="string">data</property>
+    <property id="checkApiParamUnlockedValueProp" type="string">UnlockedValue</property>
+
+    <property id="checkApiParamMovingKeyProp" type="string">data</property>
+    <property id="checkApiParamMovingValueProp" type="string">MovingValue</property>
+
+    <property id="isToggleProp" type="boolean">true</property>
+
+    <property id="toggleApiStringProp" type="string">https://httpbin.org/anything/toggleApiString</property>
+    <property id="toggleApiPostParamsJsonProp" type="string">{\"hoge\":\"huga\"}</property>
+
+    <property id="lockApiStringProp" type="string">https://httpbin.org/anything/lockApiString</property>
+    <property id="lockApiPostParamsJsonProp" type="string">{\"hoge\":\"huga\"}</property>
+
+    <property id="unlockApiStringProp" type="string">https://httpbin.org/anything/unlockApiString</property>
+    <property id="unlockApiPostParamsJsonProp" type="string">{\"hoge\":\"huga\"}</property>
+    
+    <property id="dataUpdateTimeSecGlanceProp" type="number">5</property>
+    <property id="dataUpdateTimeSecMainProp" type="number">5</property>
+
+</properties>

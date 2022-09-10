@@ -1,0 +1,7 @@
+<layouts>
+    <layout id="MainLayout">
+        <bitmap id="id_monkey" x="center" y="center" filename="../../resources/drawables/monkey.png" />
+        <label id="Main" text="Main" x="center" y="center" font="Gfx.FONT_LARGE" color="Gfx.COLOR_WHITE" />
+        <label id="TestText" text="test" x="50" y="50" font="Gfx.FONT_LARGE" color="Gfx.COLOR_RED" />
+    </layout>
+</layouts>
