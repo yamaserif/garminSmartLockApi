@@ -1,7 +1,13 @@
 <layouts>
     <layout id="MainLayout">
-        <bitmap id="id_monkey" x="center" y="center" filename="../../resources/drawables/monkey.png" />
-        <label id="Main" text="Main" x="center" y="center" font="Gfx.FONT_LARGE" color="Gfx.COLOR_WHITE" />
-        <label id="TestText" text="test" x="50" y="50" font="Gfx.FONT_LARGE" color="Gfx.COLOR_RED" />
+	    <drawable id="MoveReqIcon" />
+	    <drawable id="LockedIcon" visible="false" />
+	    <drawable id="UnlockedIcon" visible="false" />
+	    <drawable id="MovingIcon" visible="false" />
+	    <drawable id="UnknownIcon" />
+        <drawable id="TaskCountIcon" class="TaskCountIcon" />
+        <label id="NextUpdate" x="50%" y="9%" font="Gfx.FONT_TINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+        <label id="Status" x="51%" y="77%" font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+        <label id="Error" x="51%" y="90%" font="Gfx.FONT_XTINY" color="Gfx.COLOR_RED" justification="Gfx.TEXT_JUSTIFY_CENTER" />
     </layout>
 </layouts>

@@ -1,13 +1,62 @@
 <strings>
-    <string id="AppName" scope="foreground">garminSmartLockApi</string>
-    <string id="AppVersionTitle" scope="foreground">1.0.0</string>
+    <string id="AppName" scope="foreground">GarminSmartLockApi</string>
+    <string id="AppVersionTitle" scope="foreground">アプリバージョン</string>
 
 
+    <string id="RefreshApiGroup" scope="foreground">表示情報更新の設定</string>
+    <string id="RefreshApiGroupDescription" scope="foreground">表示情報更新に関連する設定項目</string>
+
+    <string id="DataUpdateTimeSecGlance" scope="foreground">ウィジェット一覧画面の更新頻度(秒)</string>
+    <string id="DataUpdateTimeSecMain" scope="foreground">アプリ画面の更新頻度(秒)</string>
+    <string id="DataUpdateTimeMovingSecMain" scope="foreground">鍵動作中のアプリ画面の更新頻度(秒)</string>
+
+    <string id="TimeoutGroup" scope="foreground">タイムアウトの設定</string>
+    <string id="TimeoutGroupDescription" scope="foreground">タイムアウトに関連する設定項目</string>
+
+    <string id="MovingTimeoutSecProp" scope="foreground">鍵動作中の状態から抜け出す時間(秒)</string>
+    
+
+    <!--API-->
+    <string id="ApiGroup" scope="glance">APIの設定</string>
+    <string id="ApiGroupDescription" scope="glance">APIに関連する設定項目</string>
+
+    <string id="UseApiModeProp" scope="glance">APIの動作モード</string>
+
+    <!--SESAME API-->
+    <string id="SesamiApiGroup" scope="glance">SESAME API使用時の設定</string>
+    <string id="SesamiApiGroupDescription" scope="glance">SESAME APIに関連する設定項目</string>
+
+    <string id="SesamiHistoryName" scope="glance">SESAMEの履歴に表示される端末名</string>
+    <string id="SesamiQRCode" scope="glance">SesamiのQRコードを読み取った際の文字列(権限がマネジャー以上のもの)</string>
+    <string id="SesamiApiKey" scope="glance">SesamiのAPIキー</string>
+
+    <!--カスタムAPI-->
     <string id="CheckApiGroup" scope="foreground">現在状態取得機能の設定</string>
     <string id="CheckApiGroupDescription" scope="foreground">現在状態取得機能に関連する設定項目</string>
 
-    <string id="CheckApiString" scope="foreground">WebAPI呼び出しURI(現在状態取得)</string>
-    <string id="CheckApiPostParamsJson" scope="foreground">現在状態取得WebAPIのPOSTパラメータ(JSON形式で記入)</string>
+    <string id="CheckApiUri" scope="foreground">WebAPI呼び出しURI(現在状態取得)</string>
+    <string id="CheckApiMethod" scope="foreground">WebAPIのメソッド(現在状態取得)</string>
+    <string id="CheckApiParamsKey1" scope="foreground">現在状態取得WebAPIのパラメータ1のキー</string>
+    <string id="CheckApiParamsValue1" scope="foreground">現在状態取得WebAPIのパラメータ1の値</string>
+    <string id="CheckApiParamsKey2" scope="foreground">現在状態取得WebAPIのパラメータ2のキー</string>
+    <string id="CheckApiParamsValue2" scope="foreground">現在状態取得WebAPIのパラメータ2の値</string>
+    <string id="CheckApiParamsKey3" scope="foreground">現在状態取得WebAPIのパラメータ3のキー</string>
+    <string id="CheckApiParamsValue3" scope="foreground">現在状態取得WebAPIのパラメータ3の値</string>
+    <string id="CheckApiParamsKey4" scope="foreground">現在状態取得WebAPIのパラメータ4のキー</string>
+    <string id="CheckApiParamsValue4" scope="foreground">現在状態取得WebAPIのパラメータ4の値</string>
+    <string id="CheckApiParamsKey5" scope="foreground">現在状態取得WebAPIのパラメータ5のキー</string>
+    <string id="CheckApiParamsValue5" scope="foreground">現在状態取得WebAPIのパラメータ5の値</string>
+
+    <string id="CheckApiHeadersKey1" scope="foreground">現在状態取得WebAPIのヘッダー1のキー</string>
+    <string id="CheckApiHeadersValue1" scope="foreground">現在状態取得WebAPIのヘッダー1の値</string>
+    <string id="CheckApiHeadersKey2" scope="foreground">現在状態取得WebAPIのヘッダー2のキー</string>
+    <string id="CheckApiHeadersValue2" scope="foreground">現在状態取得WebAPIのヘッダー2の値</string>
+    <string id="CheckApiHeadersKey3" scope="foreground">現在状態取得WebAPIのヘッダー3のキー</string>
+    <string id="CheckApiHeadersValue3" scope="foreground">現在状態取得WebAPIのヘッダー3の値</string>
+    <string id="CheckApiHeadersKey4" scope="foreground">現在状態取得WebAPIのヘッダー4のキー</string>
+    <string id="CheckApiHeadersValue4" scope="foreground">現在状態取得WebAPIのヘッダー4の値</string>
+    <string id="CheckApiHeadersKey5" scope="foreground">現在状態取得WebAPIのヘッダー5のキー</string>
+    <string id="CheckApiHeadersValue5" scope="foreground">現在状態取得WebAPIのヘッダー5の値</string>
 
     <string id="CheckApiParamLockedKey" scope="foreground">現在状態取得WebAPIにて「施錠済」を表すパラメータのキー</string>
     <string id="CheckApiParamLockedValue" scope="foreground">現在状態取得WebAPIにて「施錠済」を表すパラメータの値</string>
@@ -22,24 +71,89 @@
     <string id="MoveApiGroup" scope="foreground">鍵の動作設定</string>
     <string id="MoveApiGroupDescription" scope="foreground">鍵の動作に関連する設定項目</string>
 
-    <string id="IsToggle" scope="foreground">トグル機能のAPIを使用する</string>
+    <string id="MoveMode" scope="foreground">鍵の動作モードを設定する</string>
 
-    <string id="ToggleApiString" scope="foreground">WebAPI呼び出しURI(トグル動作)</string>
-    <string id="ToggleApiPostParamsJson" scope="foreground">トグル動作WebAPIのPOSTパラメータ(JSON形式で記入)</string>
+    <string id="ToggleApiUri" scope="foreground">WebAPI呼び出しURI(トグル動作)</string>
+    <string id="ToggleApiMethod" scope="foreground">WebAPIのメソッド(トグル動作)</string>
+    <string id="ToggleApiParamsKey1" scope="foreground">トグル動作WebAPIのパラメータ1のキー</string>
+    <string id="ToggleApiParamsValue1" scope="foreground">トグル動作WebAPIのパラメータ1の値</string>
+    <string id="ToggleApiParamsKey2" scope="foreground">トグル動作WebAPIのパラメータ2のキー</string>
+    <string id="ToggleApiParamsValue2" scope="foreground">トグル動作WebAPIのパラメータ2の値</string>
+    <string id="ToggleApiParamsKey3" scope="foreground">トグル動作WebAPIのパラメータ3のキー</string>
+    <string id="ToggleApiParamsValue3" scope="foreground">トグル動作WebAPIのパラメータ3の値</string>
+    <string id="ToggleApiParamsKey4" scope="foreground">トグル動作WebAPIのパラメータ4のキー</string>
+    <string id="ToggleApiParamsValue4" scope="foreground">トグル動作WebAPIのパラメータ4の値</string>
+    <string id="ToggleApiParamsKey5" scope="foreground">トグル動作WebAPIのパラメータ5のキー</string>
+    <string id="ToggleApiParamsValue5" scope="foreground">トグル動作WebAPIのパラメータ5の値</string>
 
-    <string id="LockApiString" scope="foreground">WebAPI呼び出しURI(施錠動作)</string>
-    <string id="LockApiPostParamsJson" scope="foreground">施錠動作WebAPIのPOSTパラメータ(JSON形式で記入)</string>
+    <string id="ToggleApiHeadersKey1" scope="foreground">トグル動作WebAPIのヘッダー1のキー</string>
+    <string id="ToggleApiHeadersValue1" scope="foreground">トグル動作WebAPIのヘッダー1の値</string>
+    <string id="ToggleApiHeadersKey2" scope="foreground">トグル動作WebAPIのヘッダー2のキー</string>
+    <string id="ToggleApiHeadersValue2" scope="foreground">トグル動作WebAPIのヘッダー2の値</string>
+    <string id="ToggleApiHeadersKey3" scope="foreground">トグル動作WebAPIのヘッダー3のキー</string>
+    <string id="ToggleApiHeadersValue3" scope="foreground">トグル動作WebAPIのヘッダー3の値</string>
+    <string id="ToggleApiHeadersKey4" scope="foreground">トグル動作WebAPIのヘッダー4のキー</string>
+    <string id="ToggleApiHeadersValue4" scope="foreground">トグル動作WebAPIのヘッダー4の値</string>
+    <string id="ToggleApiHeadersKey5" scope="foreground">トグル動作WebAPIのヘッダー5のキー</string>
+    <string id="ToggleApiHeadersValue5" scope="foreground">トグル動作WebAPIのヘッダー5の値</string>
 
-    <string id="UnlockApiString" scope="foreground">WebAPI呼び出しURI(解錠動作)</string>
-    <string id="UnlockApiPostParamsJson" scope="foreground">解錠動作WebAPIのPOSTパラメータ(JSON形式で記入)</string>
+
+    <string id="LockApiUri" scope="foreground">WebAPI呼び出しURI(施錠動作)</string>
+    <string id="LockApiMethod" scope="foreground">WebAPIのメソッド(施錠動作)</string>
+    <string id="LockApiParamsKey1" scope="foreground">施錠動作WebAPIのパラメータ1のキー</string>
+    <string id="LockApiParamsValue1" scope="foreground">施錠動作WebAPIのパラメータ1の値</string>
+    <string id="LockApiParamsKey2" scope="foreground">施錠動作WebAPIのパラメータ2のキー</string>
+    <string id="LockApiParamsValue2" scope="foreground">施錠動作WebAPIのパラメータ2の値</string>
+    <string id="LockApiParamsKey3" scope="foreground">施錠動作WebAPIのパラメータ3のキー</string>
+    <string id="LockApiParamsValue3" scope="foreground">施錠動作WebAPIのパラメータ3の値</string>
+    <string id="LockApiParamsKey4" scope="foreground">施錠動作WebAPIのパラメータ4のキー</string>
+    <string id="LockApiParamsValue4" scope="foreground">施錠動作WebAPIのパラメータ4の値</string>
+    <string id="LockApiParamsKey5" scope="foreground">施錠動作WebAPIのパラメータ5のキー</string>
+    <string id="LockApiParamsValue5" scope="foreground">施錠動作WebAPIのパラメータ5の値</string>
+
+    <string id="LockApiHeadersKey1" scope="foreground">施錠動作WebAPIのヘッダー1のキー</string>
+    <string id="LockApiHeadersValue1" scope="foreground">施錠動作WebAPIのヘッダー1の値</string>
+    <string id="LockApiHeadersKey2" scope="foreground">施錠動作WebAPIのヘッダー2のキー</string>
+    <string id="LockApiHeadersValue2" scope="foreground">施錠動作WebAPIのヘッダー2の値</string>
+    <string id="LockApiHeadersKey3" scope="foreground">施錠動作WebAPIのヘッダー3のキー</string>
+    <string id="LockApiHeadersValue3" scope="foreground">施錠動作WebAPIのヘッダー3の値</string>
+    <string id="LockApiHeadersKey4" scope="foreground">施錠動作WebAPIのヘッダー4のキー</string>
+    <string id="LockApiHeadersValue4" scope="foreground">施錠動作WebAPIのヘッダー4の値</string>
+    <string id="LockApiHeadersKey5" scope="foreground">施錠動作WebAPIのヘッダー5のキー</string>
+    <string id="LockApiHeadersValue5" scope="foreground">施錠動作WebAPIのヘッダー5の値</string>
+
+
+    <string id="UnlockApiUri" scope="foreground">WebAPI呼び出しURI(解錠動作)</string>
+    <string id="UnlockApiMethod" scope="foreground">WebAPIのメソッド(解錠動作)</string>
+    <string id="UnlockApiParamsKey1" scope="foreground">解錠動作WebAPIのパラメータ1のキー</string>
+    <string id="UnlockApiParamsValue1" scope="foreground">解錠動作WebAPIのパラメータ1の値</string>
+    <string id="UnlockApiParamsKey2" scope="foreground">解錠動作WebAPIのパラメータ2のキー</string>
+    <string id="UnlockApiParamsValue2" scope="foreground">解錠動作WebAPIのパラメータ2の値</string>
+    <string id="UnlockApiParamsKey3" scope="foreground">解錠動作WebAPIのパラメータ3のキー</string>
+    <string id="UnlockApiParamsValue3" scope="foreground">解錠動作WebAPIのパラメータ3の値</string>
+    <string id="UnlockApiParamsKey4" scope="foreground">解錠動作WebAPIのパラメータ4のキー</string>
+    <string id="UnlockApiParamsValue4" scope="foreground">解錠動作WebAPIのパラメータ4の値</string>
+    <string id="UnlockApiParamsKey5" scope="foreground">解錠動作WebAPIのパラメータ5のキー</string>
+    <string id="UnlockApiParamsValue5" scope="foreground">解錠動作WebAPIのパラメータ5の値</string>
     
+    <string id="UnlockApiHeadersKey1" scope="foreground">解錠動作WebAPIのヘッダー1のキー</string>
+    <string id="UnlockApiHeadersValue1" scope="foreground">解錠動作WebAPIのヘッダー1の値</string>
+    <string id="UnlockApiHeadersKey2" scope="foreground">解錠動作WebAPIのヘッダー2のキー</string>
+    <string id="UnlockApiHeadersValue2" scope="foreground">解錠動作WebAPIのヘッダー2の値</string>
+    <string id="UnlockApiHeadersKey3" scope="foreground">解錠動作WebAPIのヘッダー3のキー</string>
+    <string id="UnlockApiHeadersValue3" scope="foreground">解錠動作WebAPIのヘッダー3の値</string>
+    <string id="UnlockApiHeadersKey4" scope="foreground">解錠動作WebAPIのヘッダー4のキー</string>
+    <string id="UnlockApiHeadersValue4" scope="foreground">解錠動作WebAPIのヘッダー4の値</string>
+    <string id="UnlockApiHeadersKey5" scope="foreground">解錠動作WebAPIのヘッダー5のキー</string>
+    <string id="UnlockApiHeadersValue5" scope="foreground">解錠動作WebAPIのヘッダー5の値</string>
 
-    <string id="RefreshApiGroup" scope="foreground">表示情報更新の設定</string>
-    <string id="RefreshApiGroupDescription" scope="foreground">表示情報更新に関連する設定項目</string>
 
-    <string id="DataUpdateTimeSecGlance" scope="foreground">ウィジェット一覧画面の更新頻度(秒)</string>
-    <string id="DataUpdateTimeSecMain" scope="foreground">アプリ画面の更新頻度(秒)</string>
+    <!--内部設定値-->
+    <string id="SesamiApi" scope="foreground">SESAMI API</string>
+    <string id="CustomApi" scope="foreground">カスタムAPI</string>
 
+    <string id="NextUpdate" scope="glance">更新まで... </string>
+    <string id="Error" scope="glance">Error: </string>
 
     <string id="Locked" scope="foreground">施錠済</string>
     <string id="Unlocked" scope="foreground">解錠済</string>
@@ -48,5 +162,11 @@
     <string id="LockedGlance" scope="glance">施錠済</string>
     <string id="UnlockedGlance" scope="glance">解錠済</string>
     <string id="MovingGlance" scope="glance">作動中</string>
+
+    <string id="Toggle" scope="foreground">トグル機能のAPIを使用する</string>
+    <string id="LockAndUnlock" scope="foreground">施錠機能と解錠機能合わせて2つのAPIを使用する</string>
+    
+    <string id="Get" scope="foreground">GET</string>
+    <string id="Post" scope="foreground">POST</string>
 
 </strings>

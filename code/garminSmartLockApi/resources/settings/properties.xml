@@ -1,30 +1,127 @@
 <properties>
     <property id="appVersionProp" type="string">1.0.0</property>
 
-    <property id="checkApiStringProp" type="string">https://httpbin.org/anything/checkApiString</property>
-    <property id="checkApiPostParamsJsonProp" type="string">{\"hoge\":\"huga\"}</property>
-
-    <property id="checkApiParamLockedKeyProp" type="string">data</property>
-    <property id="checkApiParamLockedValueProp" type="string">LockedValue</property>
-
-    <property id="checkApiParamUnlockedKeyProp" type="string">data</property>
-    <property id="checkApiParamUnlockedValueProp" type="string">UnlockedValue</property>
-
-    <property id="checkApiParamMovingKeyProp" type="string">data</property>
-    <property id="checkApiParamMovingValueProp" type="string">MovingValue</property>
-
-    <property id="isToggleProp" type="boolean">true</property>
-
-    <property id="toggleApiStringProp" type="string">https://httpbin.org/anything/toggleApiString</property>
-    <property id="toggleApiPostParamsJsonProp" type="string">{\"hoge\":\"huga\"}</property>
-
-    <property id="lockApiStringProp" type="string">https://httpbin.org/anything/lockApiString</property>
-    <property id="lockApiPostParamsJsonProp" type="string">{\"hoge\":\"huga\"}</property>
-
-    <property id="unlockApiStringProp" type="string">https://httpbin.org/anything/unlockApiString</property>
-    <property id="unlockApiPostParamsJsonProp" type="string">{\"hoge\":\"huga\"}</property>
+    <property id="dataUpdateTimeSecGlanceProp" type="number">30</property>
+    <property id="dataUpdateTimeSecMainProp" type="number">20</property>
+    <property id="dataUpdateTimeMovingSecMainProp" type="number">1</property>
+    <property id="movingTimeoutSecProp" type="number">15</property>
     
-    <property id="dataUpdateTimeSecGlanceProp" type="number">5</property>
-    <property id="dataUpdateTimeSecMainProp" type="number">5</property>
+    <!--API-->
+    <property id="useApiModeProp" type="number">1</property>
 
+    <!--SESAME API-->
+    <property id="sesamiHistoryName" type="string">Garmin</property>
+    <property id="sesamiQRCode" type="string">ssm://...</property>
+    <property id="sesamiApiKey" type="string"></property>
+
+    <!--カスタムAPI-->
+    <property id="checkApiUriProp" type="string">https://httpbin.org/anything/checkApiUri</property>
+    <property id="checkApiMethodProp" type="number">1</property>
+    <property id="checkApiParamsPropKey1" type="string">SampleResponseStatus</property>
+    <property id="checkApiParamsPropValue1" type="string">Locked</property>
+    <property id="checkApiParamsPropKey2" type="string"></property>
+    <property id="checkApiParamsPropValue2" type="string"></property>
+    <property id="checkApiParamsPropKey3" type="string"></property>
+    <property id="checkApiParamsPropValue3" type="string"></property>
+    <property id="checkApiParamsPropKey4" type="string"></property>
+    <property id="checkApiParamsPropValue4" type="string"></property>
+    <property id="checkApiParamsPropKey5" type="string"></property>
+    <property id="checkApiParamsPropValue5" type="string"></property>
+
+    <property id="checkApiHeadersPropKey1" type="string"></property>
+    <property id="checkApiHeadersPropValue1" type="string"></property>
+    <property id="checkApiHeadersPropKey2" type="string"></property>
+    <property id="checkApiHeadersPropValue2" type="string"></property>
+    <property id="checkApiHeadersPropKey3" type="string"></property>
+    <property id="checkApiHeadersPropValue3" type="string"></property>
+    <property id="checkApiHeadersPropKey4" type="string"></property>
+    <property id="checkApiHeadersPropValue4" type="string"></property>
+    <property id="checkApiHeadersPropKey5" type="string"></property>
+    <property id="checkApiHeadersPropValue5" type="string"></property>
+
+    <property id="checkApiParamLockedPropKey" type="string">form.SampleResponseStatus</property>
+    <property id="checkApiParamLockedPropValue" type="string">Locked</property>
+
+    <property id="checkApiParamUnlockedPropKey" type="string">form.SampleResponseStatus</property>
+    <property id="checkApiParamUnlockedPropValue" type="string">Unlocked</property>
+
+    <property id="checkApiParamMovingPropKey" type="string">form.SampleResponseStatus</property>
+    <property id="checkApiParamMovingPropValue" type="string">Moving</property>
+
+
+    <property id="moveModeProp" type="number">0</property>
+
+    <property id="toggleApiUriProp" type="string">https://httpbin.org/anything/toggleApiUri</property>
+    <property id="toggleApiMethodProp" type="number">1</property>
+    <property id="toggleApiParamsPropKey1" type="string"></property>
+    <property id="toggleApiParamsPropValue1" type="string"></property>
+    <property id="toggleApiParamsPropKey2" type="string"></property>
+    <property id="toggleApiParamsPropValue2" type="string"></property>
+    <property id="toggleApiParamsPropKey3" type="string"></property>
+    <property id="toggleApiParamsPropValue3" type="string"></property>
+    <property id="toggleApiParamsPropKey4" type="string"></property>
+    <property id="toggleApiParamsPropValue4" type="string"></property>
+    <property id="toggleApiParamsPropKey5" type="string"></property>
+    <property id="toggleApiParamsPropValue5" type="string"></property>
+
+    <property id="toggleApiHeadersPropKey1" type="string"></property>
+    <property id="toggleApiHeadersPropValue1" type="string"></property>
+    <property id="toggleApiHeadersPropKey2" type="string"></property>
+    <property id="toggleApiHeadersPropValue2" type="string"></property>
+    <property id="toggleApiHeadersPropKey3" type="string"></property>
+    <property id="toggleApiHeadersPropValue3" type="string"></property>
+    <property id="toggleApiHeadersPropKey4" type="string"></property>
+    <property id="toggleApiHeadersPropValue4" type="string"></property>
+    <property id="toggleApiHeadersPropKey5" type="string"></property>
+    <property id="toggleApiHeadersPropValue5" type="string"></property>
+
+
+    <property id="lockApiUriProp" type="string">https://httpbin.org/anything/lockApiUri</property>
+    <property id="lockApiMethodProp" type="number">1</property>
+    <property id="lockApiParamsPropKey1" type="string"></property>
+    <property id="lockApiParamsPropValue1" type="string"></property>
+    <property id="lockApiParamsPropKey2" type="string"></property>
+    <property id="lockApiParamsPropValue2" type="string"></property>
+    <property id="lockApiParamsPropKey3" type="string"></property>
+    <property id="lockApiParamsPropValue3" type="string"></property>
+    <property id="lockApiParamsPropKey4" type="string"></property>
+    <property id="lockApiParamsPropValue4" type="string"></property>
+    <property id="lockApiParamsPropKey5" type="string"></property>
+    <property id="lockApiParamsPropValue5" type="string"></property>
+
+    <property id="lockApiHeadersPropKey1" type="string"></property>
+    <property id="lockApiHeadersPropValue1" type="string"></property>
+    <property id="lockApiHeadersPropKey2" type="string"></property>
+    <property id="lockApiHeadersPropValue2" type="string"></property>
+    <property id="lockApiHeadersPropKey3" type="string"></property>
+    <property id="lockApiHeadersPropValue3" type="string"></property>
+    <property id="lockApiHeadersPropKey4" type="string"></property>
+    <property id="lockApiHeadersPropValue4" type="string"></property>
+    <property id="lockApiHeadersPropKey5" type="string"></property>
+    <property id="lockApiHeadersPropValue5" type="string"></property>
+
+
+    <property id="unlockApiUriProp" type="string">https://httpbin.org/anything/unlockApiUri</property>
+    <property id="unlockApiMethodProp" type="number">1</property>
+    <property id="unlockApiParamsPropKey1" type="string"></property>
+    <property id="unlockApiParamsPropValue1" type="string"></property>
+    <property id="unlockApiParamsPropKey2" type="string"></property>
+    <property id="unlockApiParamsPropValue2" type="string"></property>
+    <property id="unlockApiParamsPropKey3" type="string"></property>
+    <property id="unlockApiParamsPropValue3" type="string"></property>
+    <property id="unlockApiParamsPropKey4" type="string"></property>
+    <property id="unlockApiParamsPropValue4" type="string"></property>
+    <property id="unlockApiParamsPropKey5" type="string"></property>
+    <property id="unlockApiParamsPropValue5" type="string"></property>
+    
+    <property id="unlockApiHeadersPropKey1" type="string"></property>
+    <property id="unlockApiHeadersPropValue1" type="string"></property>
+    <property id="unlockApiHeadersPropKey2" type="string"></property>
+    <property id="unlockApiHeadersPropValue2" type="string"></property>
+    <property id="unlockApiHeadersPropKey3" type="string"></property>
+    <property id="unlockApiHeadersPropValue3" type="string"></property>
+    <property id="unlockApiHeadersPropKey4" type="string"></property>
+    <property id="unlockApiHeadersPropValue4" type="string"></property>
+    <property id="unlockApiHeadersPropKey5" type="string"></property>
+    <property id="unlockApiHeadersPropValue5" type="string"></property>
 </properties>

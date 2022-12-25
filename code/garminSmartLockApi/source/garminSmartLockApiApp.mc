@@ -1,13 +1,13 @@
-import Toybox.Application;
-import Toybox.Lang;
-import Toybox.WatchUi;
+using Toybox.Application;
+using ApiCommunications;
 
 // ウィジェットなのでglanceの機能を使用する
 (:glance)
-class garminSmartLockApiApp extends Application.AppBase {
+class GarminSmartLockApiApp extends Application.AppBase {
 
     function initialize() {
         AppBase.initialize();
+        ApiCommunications.initialize();
     }
 
     // onStart() is called on application start up
@@ -19,16 +19,28 @@ class garminSmartLockApiApp extends Application.AppBase {
     }
 
     // Return the initial view of your application here
-    function getInitialView() as Array<Views or InputDelegates>? {
-        return [ new garminSmartLockApiView() ] as Array<Views or InputDelegates>;
+    function getInitialView() as Array<Views or BehaviorDelegates>? {
+        var garminSmartLockApiView = new GarminSmartLockApiView();
+        var garminSmartLockApiBehaviorDelegate = new GarminSmartLockApiBehaviorDelegate();
+
+        garminSmartLockApiBehaviorDelegate.garminSmartLockApiView = garminSmartLockApiView;
+
+        return [
+            garminSmartLockApiView,
+            garminSmartLockApiBehaviorDelegate
+        ] as Array<Views or BehaviorDelegates>;
     }
 
     // glanceの表示内容
     function getGlanceView() as Array<GlanceView>? {
-        return [ new garminSmartLockApiViewGlanceView() ] as Array<GlanceView or GlanceViewDelegate>;
+        var garminSmartLockApiViewGlanceView = new GarminSmartLockApiViewGlanceView();
+
+        return [
+            garminSmartLockApiViewGlanceView
+        ] as Array<GlanceView or GlanceViewDelegate>;
     }
 }
 
-function getApp() as garminSmartLockApiApp {
-    return Application.getApp() as garminSmartLockApiApp;
+function getApp() as GarminSmartLockApiApp {
+    return Application.getApp() as GarminSmartLockApiApp;
 }
