@@ -10,21 +10,21 @@
     3. SESAME API Key.
 
 ### API operation mode.
-    To use the SESAME API function, set the operation mode to "SESAME API".
+To use the SESAME API function, set the operation mode to "SESAME API".
 
 ### Terminal name displayed in SESAME history.
-    The name that will appear on the SESAME history screen.  
-    You can set it to any name you wish. (It does not affect the operation itself).
+The name that will appear on the SESAME history screen.   
+You can set it to any name you wish. (It does not affect the operation itself).
 
 ### String when scanning SESAME's QR code.(Authority is manager or above.)
-    The QR code string generated from the SESAME application.
-    1. Generate a QR code from Sesame's Share Your Key feature with Manager or higher privileges.
-    2. Read the generated QR code with any QR code reader. (The string will begin with "ssm://")
+The QR code string generated from the SESAME application.
+1. Generate a QR code from Sesame's Share Your Key feature with Manager or higher privileges.
+2. Read the generated QR code with any QR code reader. (The string will begin with "ssm://")
 
 ### SESAME API Key.
-    API key for using the SESAME API.
-    The API key can be obtained from the following page.
-    https://partners.candyhouse.co/login/
+API key for using the SESAME API.  
+The API key can be obtained from the following page.  
+https://partners.candyhouse.co/login/
 
 ---
 
@@ -75,18 +75,18 @@
     13. Header value of unlock operation WebAPI.
 
 ### API operation mode.
-    To use the custom API function, set the operation mode to "Custom API".
+To use the custom API function, set the operation mode to "Custom API".
 
 ### WebAPI call URI.
-    Set the URI to call the WebAPI.
+Set the URI to call the WebAPI.
 
 ### WebAPI method.
-    Set the HTTP method for using WebAPI.
-    You can choose between GET or POST.
+Set the HTTP method for using WebAPI.  
+You can choose between GET or POST.
 
 ### Parameter key of unlock operation WebAPI, Parameter value of unlock operation WebAPI
-    Set the parameters to be sent when using WebAPI.
-    You can set up to 5 parameters.
+Set the parameters to be sent when using WebAPI.  
+You can set up to 5 parameters.
 ```
 {
     "Parameter key1": "Parameter value1",
@@ -98,8 +98,8 @@
 ```
 
 ### Header key of unlock operation WebAPI, Header value of unlock operation WebAPI
-    Set the headers to be sent when using WebAPI.
-    You can set up to 5 parameters.
+Set the headers to be sent when using WebAPI.  
+You can set up to 5 parameters.
 ```
 {
     "Header key1": "Header value1",
@@ -110,8 +110,8 @@
 }
 ```
 ### Key of parameter indicating "locked" in the current status acquisition WebAPI, Value of parameter indicating "locked" in the current status acquisition WebAPI
-    You can set the parameter value that indicates locked/unlocked/activated in the returned response.
-    If the hierarchy is deep, separate them with "." to separate the responses.
+You can set the parameter value that indicates locked/unlocked/activated in the returned response.  
+If the hierarchy is deep, separate them with "." to separate the responses.
 ```
 Example: response.status
 {
