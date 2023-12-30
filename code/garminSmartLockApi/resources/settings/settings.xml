@@ -4,365 +4,371 @@
         <settingConfig type="alphaNumeric" readonly="true" />
     </setting>
 
-    <group id="refreshApi" title="@Strings.RefreshApiGroup" description="@Strings.RefreshApiGroupDescription">
-        <setting propertyKey="@Properties.dataUpdateTimeSecGlanceProp" title="@Strings.DataUpdateTimeSecGlance">
-            <settingConfig type="numeric" required="true" />
-        </setting>
-        <setting propertyKey="@Properties.dataUpdateTimeSecMainProp" title="@Strings.DataUpdateTimeSecMain">
-            <settingConfig type="numeric" required="true" />
-        </setting>
-        <setting propertyKey="@Properties.dataUpdateTimeMovingSecMainProp" title="@Strings.DataUpdateTimeMovingSecMain">
-            <settingConfig type="numeric" required="true" />
-        </setting>
-    </group>
+    <setting propertyKey="@Properties.refreshApiGroupDescription" title="@Strings.RefreshApiGroup">
+        <settingConfig type="alphaNumeric" readonly="true" />
+    </setting><!--Group String-->
+    <setting propertyKey="@Properties.dataUpdateTimeSecGlanceProp" title="@Strings.DataUpdateTimeSecGlance">
+        <settingConfig type="numeric" required="true" />
+    </setting>
+    <setting propertyKey="@Properties.dataUpdateTimeSecMainProp" title="@Strings.DataUpdateTimeSecMain">
+        <settingConfig type="numeric" required="true" />
+    </setting>
+    <setting propertyKey="@Properties.dataUpdateTimeMovingSecMainProp" title="@Strings.DataUpdateTimeMovingSecMain">
+        <settingConfig type="numeric" required="true" />
+    </setting>
 
-    <group id="timeout" title="@Strings.TimeoutGroup" description="@Strings.TimeoutGroupDescription">
-        <setting propertyKey="@Properties.movingTimeoutSecProp" title="@Strings.MovingTimeoutSecProp">
-            <settingConfig type="numeric" required="true" />
-        </setting>
-    </group>
+    <setting propertyKey="@Properties.timeoutGroupDescription" title="@Strings.TimeoutGroup">
+        <settingConfig type="alphaNumeric" readonly="true" />
+    </setting><!--Group String-->
+    <setting propertyKey="@Properties.movingTimeoutSecProp" title="@Strings.MovingTimeoutSecProp">
+        <settingConfig type="numeric" required="true" />
+    </setting>
     
     <!--API-->
-    <group id="api" title="@Strings.ApiGroup" description="@Strings.ApiGroupDescription">
-        <setting propertyKey="@Properties.useApiModeProp" title="@Strings.UseApiModeProp">
-            <settingConfig type="list">
-                <listEntry value="0">@Strings.SesamiApi</listEntry>
-                <listEntry value="1">@Strings.CustomApi</listEntry>
-            </settingConfig>
-        </setting>
-    </group>
+    <setting propertyKey="@Properties.apiGroupDescription" title="@Strings.ApiGroup">
+        <settingConfig type="alphaNumeric" readonly="true" />
+    </setting><!--Group String-->
+    <setting propertyKey="@Properties.useApiModeProp" title="@Strings.UseApiModeProp">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.SesamiApi</listEntry>
+            <listEntry value="1">@Strings.CustomApi</listEntry>
+        </settingConfig>
+    </setting>
 
     <!--SESAME API-->
-    <group id="sesamiApi" title="@Strings.SesamiApiGroup" description="@Strings.SesamiApiGroupDescription">
-        <setting propertyKey="@Properties.sesamiHistoryName" title="@Strings.SesamiHistoryName">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.sesamiQRCode" title="@Strings.SesamiQRCode">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.sesamiApiKey" title="@Strings.SesamiApiKey">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-    </group>
+    <setting propertyKey="@Properties.sesamiApiGroupDescription" title="@Strings.SesamiApiGroup">
+        <settingConfig type="alphaNumeric" readonly="true" />
+    </setting><!--Group String-->
+    <setting propertyKey="@Properties.sesamiHistoryName" title="@Strings.SesamiHistoryName">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.sesamiQRCode" title="@Strings.SesamiQRCode">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.sesamiApiKey" title="@Strings.SesamiApiKey">
+        <settingConfig type="alphaNumeric" />
+    </setting>
 
     <!--カスタムAPI-->
-    <group id="checkApi" title="@Strings.CheckApiGroup" description="@Strings.CheckApiGroupDescription">
-        <setting propertyKey="@Properties.checkApiUriProp" title="@Strings.CheckApiUri">
-            <settingConfig type="url" />
-        </setting>
-        <setting propertyKey="@Properties.checkApiMethodProp" title="@Strings.CheckApiMethod">
-            <settingConfig type="list">
-                <listEntry value="0">@Strings.Get</listEntry>
-                <listEntry value="1">@Strings.Post</listEntry>
-            </settingConfig>
-        </setting>
-        <setting propertyKey="@Properties.checkApiParamsPropKey1" title="@Strings.CheckApiParamsKey1">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.checkApiParamsPropValue1" title="@Strings.CheckApiParamsValue1">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.checkApiParamsPropKey2" title="@Strings.CheckApiParamsKey2">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.checkApiParamsPropValue2" title="@Strings.CheckApiParamsValue2">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.checkApiParamsPropKey3" title="@Strings.CheckApiParamsKey3">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.checkApiParamsPropValue3" title="@Strings.CheckApiParamsValue3">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.checkApiParamsPropKey4" title="@Strings.CheckApiParamsKey4">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.checkApiParamsPropValue4" title="@Strings.CheckApiParamsValue4">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.checkApiParamsPropKey5" title="@Strings.CheckApiParamsKey5">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.checkApiParamsPropValue5" title="@Strings.CheckApiParamsValue5">
-            <settingConfig type="alphaNumeric" />
-        </setting>
+    <setting propertyKey="@Properties.checkApiGroupDescription" title="@Strings.CheckApiGroup">
+        <settingConfig type="alphaNumeric" readonly="true" />
+    </setting><!--Group String-->
+    <setting propertyKey="@Properties.checkApiUriProp" title="@Strings.CheckApiUri">
+        <settingConfig type="url" />
+    </setting>
+    <setting propertyKey="@Properties.checkApiMethodProp" title="@Strings.CheckApiMethod">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Get</listEntry>
+            <listEntry value="1">@Strings.Post</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.checkApiParamsPropKey1" title="@Strings.CheckApiParamsKey1">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.checkApiParamsPropValue1" title="@Strings.CheckApiParamsValue1">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.checkApiParamsPropKey2" title="@Strings.CheckApiParamsKey2">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.checkApiParamsPropValue2" title="@Strings.CheckApiParamsValue2">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.checkApiParamsPropKey3" title="@Strings.CheckApiParamsKey3">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.checkApiParamsPropValue3" title="@Strings.CheckApiParamsValue3">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.checkApiParamsPropKey4" title="@Strings.CheckApiParamsKey4">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.checkApiParamsPropValue4" title="@Strings.CheckApiParamsValue4">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.checkApiParamsPropKey5" title="@Strings.CheckApiParamsKey5">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.checkApiParamsPropValue5" title="@Strings.CheckApiParamsValue5">
+        <settingConfig type="alphaNumeric" />
+    </setting>
 
-        <setting propertyKey="@Properties.checkApiHeadersPropKey1" title="@Strings.CheckApiHeadersKey1">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.checkApiHeadersPropValue1" title="@Strings.CheckApiHeadersValue1">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.checkApiHeadersPropKey2" title="@Strings.CheckApiHeadersKey2">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.checkApiHeadersPropValue2" title="@Strings.CheckApiHeadersValue2">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.checkApiHeadersPropKey3" title="@Strings.CheckApiHeadersKey3">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.checkApiHeadersPropValue3" title="@Strings.CheckApiHeadersValue3">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.checkApiHeadersPropKey4" title="@Strings.CheckApiHeadersKey4">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.checkApiHeadersPropValue4" title="@Strings.CheckApiHeadersValue4">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.checkApiHeadersPropKey5" title="@Strings.CheckApiHeadersKey5">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.checkApiHeadersPropValue5" title="@Strings.CheckApiHeadersValue5">
-            <settingConfig type="alphaNumeric" />
-        </setting>
+    <setting propertyKey="@Properties.checkApiHeadersPropKey1" title="@Strings.CheckApiHeadersKey1">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.checkApiHeadersPropValue1" title="@Strings.CheckApiHeadersValue1">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.checkApiHeadersPropKey2" title="@Strings.CheckApiHeadersKey2">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.checkApiHeadersPropValue2" title="@Strings.CheckApiHeadersValue2">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.checkApiHeadersPropKey3" title="@Strings.CheckApiHeadersKey3">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.checkApiHeadersPropValue3" title="@Strings.CheckApiHeadersValue3">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.checkApiHeadersPropKey4" title="@Strings.CheckApiHeadersKey4">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.checkApiHeadersPropValue4" title="@Strings.CheckApiHeadersValue4">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.checkApiHeadersPropKey5" title="@Strings.CheckApiHeadersKey5">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.checkApiHeadersPropValue5" title="@Strings.CheckApiHeadersValue5">
+        <settingConfig type="alphaNumeric" />
+    </setting>
 
-        <setting propertyKey="@Properties.checkApiParamLockedPropKey" title="@Strings.CheckApiParamLockedKey">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.checkApiParamLockedPropValue" title="@Strings.CheckApiParamLockedValue">
-            <settingConfig type="alphaNumeric" />
-        </setting>
+    <setting propertyKey="@Properties.checkApiParamLockedPropKey" title="@Strings.CheckApiParamLockedKey">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.checkApiParamLockedPropValue" title="@Strings.CheckApiParamLockedValue">
+        <settingConfig type="alphaNumeric" />
+    </setting>
 
-        <setting propertyKey="@Properties.checkApiParamUnlockedPropKey" title="@Strings.CheckApiParamUnlockedKey">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.checkApiParamUnlockedPropValue" title="@Strings.CheckApiParamUnlockedValue">
-            <settingConfig type="alphaNumeric" />
-        </setting>
+    <setting propertyKey="@Properties.checkApiParamUnlockedPropKey" title="@Strings.CheckApiParamUnlockedKey">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.checkApiParamUnlockedPropValue" title="@Strings.CheckApiParamUnlockedValue">
+        <settingConfig type="alphaNumeric" />
+    </setting>
 
-        <setting propertyKey="@Properties.checkApiParamMovingPropKey" title="@Strings.CheckApiParamMovingKey">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.checkApiParamMovingPropValue" title="@Strings.CheckApiParamMovingValue">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-    </group>
-
-
-    <group id="moveApi" title="@Strings.MoveApiGroup" description="@Strings.MoveApiGroupDescription">
-        <setting propertyKey="@Properties.moveModeProp" title="@Strings.MoveMode">
-            <settingConfig type="list">
-                <listEntry value="0">@Strings.Toggle</listEntry>
-                <listEntry value="1">@Strings.LockAndUnlock</listEntry>
-            </settingConfig>
-        </setting>
-
-        <setting propertyKey="@Properties.toggleApiUriProp" title="@Strings.ToggleApiUri">
-            <settingConfig type="url" />
-        </setting>
-        <setting propertyKey="@Properties.toggleApiMethodProp" title="@Strings.ToggleApiMethod">
-            <settingConfig type="list">
-                <listEntry value="0">@Strings.Get</listEntry>
-                <listEntry value="1">@Strings.Post</listEntry>
-            </settingConfig>
-        </setting>
-        <setting propertyKey="@Properties.toggleApiParamsPropKey1" title="@Strings.ToggleApiParamsKey1">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.toggleApiParamsPropValue1" title="@Strings.ToggleApiParamsValue1">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.toggleApiParamsPropKey2" title="@Strings.ToggleApiParamsKey2">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.toggleApiParamsPropValue2" title="@Strings.ToggleApiParamsValue2">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.toggleApiParamsPropKey3" title="@Strings.ToggleApiParamsKey3">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.toggleApiParamsPropValue3" title="@Strings.ToggleApiParamsValue3">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.toggleApiParamsPropKey4" title="@Strings.ToggleApiParamsKey4">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.toggleApiParamsPropValue4" title="@Strings.ToggleApiParamsValue4">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.toggleApiParamsPropKey5" title="@Strings.ToggleApiParamsKey5">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.toggleApiParamsPropValue5" title="@Strings.ToggleApiParamsValue5">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-
-        <setting propertyKey="@Properties.toggleApiHeadersPropKey1" title="@Strings.ToggleApiHeadersKey1">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.toggleApiHeadersPropValue1" title="@Strings.ToggleApiHeadersValue1">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.toggleApiHeadersPropKey2" title="@Strings.ToggleApiHeadersKey2">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.toggleApiHeadersPropValue2" title="@Strings.ToggleApiHeadersValue2">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.toggleApiHeadersPropKey3" title="@Strings.ToggleApiHeadersKey3">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.toggleApiHeadersPropValue3" title="@Strings.ToggleApiHeadersValue3">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.toggleApiHeadersPropKey4" title="@Strings.ToggleApiHeadersKey4">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.toggleApiHeadersPropValue4" title="@Strings.ToggleApiHeadersValue4">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.toggleApiHeadersPropKey5" title="@Strings.ToggleApiHeadersKey5">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.toggleApiHeadersPropValue5" title="@Strings.ToggleApiHeadersValue5">
-            <settingConfig type="alphaNumeric" />
-        </setting>
+    <setting propertyKey="@Properties.checkApiParamMovingPropKey" title="@Strings.CheckApiParamMovingKey">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.checkApiParamMovingPropValue" title="@Strings.CheckApiParamMovingValue">
+        <settingConfig type="alphaNumeric" />
+    </setting>
 
 
-        <setting propertyKey="@Properties.lockApiUriProp" title="@Strings.LockApiUri">
-            <settingConfig type="url" />
-        </setting>
-        <setting propertyKey="@Properties.lockApiMethodProp" title="@Strings.LockApiMethod">
-            <settingConfig type="list">
-                <listEntry value="0">@Strings.Get</listEntry>
-                <listEntry value="1">@Strings.Post</listEntry>
-            </settingConfig>
-        </setting>
-        <setting propertyKey="@Properties.lockApiParamsPropKey1" title="@Strings.LockApiParamsKey1">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.lockApiParamsPropValue1" title="@Strings.LockApiParamsValue1">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.lockApiParamsPropKey2" title="@Strings.LockApiParamsKey2">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.lockApiParamsPropValue2" title="@Strings.LockApiParamsValue2">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.lockApiParamsPropKey3" title="@Strings.LockApiParamsKey3">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.lockApiParamsPropValue3" title="@Strings.LockApiParamsValue3">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.lockApiParamsPropKey4" title="@Strings.LockApiParamsKey4">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.lockApiParamsPropValue4" title="@Strings.LockApiParamsValue4">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.lockApiParamsPropKey5" title="@Strings.LockApiParamsKey5">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.lockApiParamsPropValue5" title="@Strings.LockApiParamsValue5">
-            <settingConfig type="alphaNumeric" />
-        </setting>
+    <setting propertyKey="@Properties.moveApiGroupDescription" title="@Strings.MoveApiGroup">
+        <settingConfig type="alphaNumeric" readonly="true" />
+    </setting><!--Group String-->
+    <setting propertyKey="@Properties.moveModeProp" title="@Strings.MoveMode">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Toggle</listEntry>
+            <listEntry value="1">@Strings.LockAndUnlock</listEntry>
+        </settingConfig>
+    </setting>
 
-        <setting propertyKey="@Properties.lockApiHeadersPropKey1" title="@Strings.LockApiHeadersKey1">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.lockApiHeadersPropValue1" title="@Strings.LockApiHeadersValue1">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.lockApiHeadersPropKey2" title="@Strings.LockApiHeadersKey2">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.lockApiHeadersPropValue2" title="@Strings.LockApiHeadersValue2">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.lockApiHeadersPropKey3" title="@Strings.LockApiHeadersKey3">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.lockApiHeadersPropValue3" title="@Strings.LockApiHeadersValue3">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.lockApiHeadersPropKey4" title="@Strings.LockApiHeadersKey4">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.lockApiHeadersPropValue4" title="@Strings.LockApiHeadersValue4">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.lockApiHeadersPropKey5" title="@Strings.LockApiHeadersKey5">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.lockApiHeadersPropValue5" title="@Strings.LockApiHeadersValue5">
-            <settingConfig type="alphaNumeric" />
-        </setting>
+    <setting propertyKey="@Properties.toggleApiUriProp" title="@Strings.ToggleApiUri">
+        <settingConfig type="url" />
+    </setting>
+    <setting propertyKey="@Properties.toggleApiMethodProp" title="@Strings.ToggleApiMethod">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Get</listEntry>
+            <listEntry value="1">@Strings.Post</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.toggleApiParamsPropKey1" title="@Strings.ToggleApiParamsKey1">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.toggleApiParamsPropValue1" title="@Strings.ToggleApiParamsValue1">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.toggleApiParamsPropKey2" title="@Strings.ToggleApiParamsKey2">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.toggleApiParamsPropValue2" title="@Strings.ToggleApiParamsValue2">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.toggleApiParamsPropKey3" title="@Strings.ToggleApiParamsKey3">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.toggleApiParamsPropValue3" title="@Strings.ToggleApiParamsValue3">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.toggleApiParamsPropKey4" title="@Strings.ToggleApiParamsKey4">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.toggleApiParamsPropValue4" title="@Strings.ToggleApiParamsValue4">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.toggleApiParamsPropKey5" title="@Strings.ToggleApiParamsKey5">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.toggleApiParamsPropValue5" title="@Strings.ToggleApiParamsValue5">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+
+    <setting propertyKey="@Properties.toggleApiHeadersPropKey1" title="@Strings.ToggleApiHeadersKey1">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.toggleApiHeadersPropValue1" title="@Strings.ToggleApiHeadersValue1">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.toggleApiHeadersPropKey2" title="@Strings.ToggleApiHeadersKey2">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.toggleApiHeadersPropValue2" title="@Strings.ToggleApiHeadersValue2">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.toggleApiHeadersPropKey3" title="@Strings.ToggleApiHeadersKey3">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.toggleApiHeadersPropValue3" title="@Strings.ToggleApiHeadersValue3">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.toggleApiHeadersPropKey4" title="@Strings.ToggleApiHeadersKey4">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.toggleApiHeadersPropValue4" title="@Strings.ToggleApiHeadersValue4">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.toggleApiHeadersPropKey5" title="@Strings.ToggleApiHeadersKey5">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.toggleApiHeadersPropValue5" title="@Strings.ToggleApiHeadersValue5">
+        <settingConfig type="alphaNumeric" />
+    </setting>
 
 
-        <setting propertyKey="@Properties.unlockApiUriProp" title="@Strings.UnlockApiUri">
-            <settingConfig type="url" />
-        </setting>
-        <setting propertyKey="@Properties.unlockApiMethodProp" title="@Strings.UnlockApiMethod">
-            <settingConfig type="list">
-                <listEntry value="0">@Strings.Get</listEntry>
-                <listEntry value="1">@Strings.Post</listEntry>
-            </settingConfig>
-        </setting>
-        <setting propertyKey="@Properties.unlockApiParamsPropKey1" title="@Strings.UnlockApiParamsKey1">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.unlockApiParamsPropValue1" title="@Strings.UnlockApiParamsValue1">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.unlockApiParamsPropKey2" title="@Strings.UnlockApiParamsKey2">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.unlockApiParamsPropValue2" title="@Strings.UnlockApiParamsValue2">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.unlockApiParamsPropKey3" title="@Strings.UnlockApiParamsKey3">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.unlockApiParamsPropValue3" title="@Strings.UnlockApiParamsValue3">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.unlockApiParamsPropKey4" title="@Strings.UnlockApiParamsKey4">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.unlockApiParamsPropValue4" title="@Strings.UnlockApiParamsValue4">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.unlockApiParamsPropKey5" title="@Strings.UnlockApiParamsKey5">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.unlockApiParamsPropValue5" title="@Strings.UnlockApiParamsValue5">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        
-        <setting propertyKey="@Properties.unlockApiHeadersPropKey1" title="@Strings.UnlockApiHeadersKey1">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.unlockApiHeadersPropValue1" title="@Strings.UnlockApiHeadersValue1">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.unlockApiHeadersPropKey2" title="@Strings.UnlockApiHeadersKey2">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.unlockApiHeadersPropValue2" title="@Strings.UnlockApiHeadersValue2">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.unlockApiHeadersPropKey3" title="@Strings.UnlockApiHeadersKey3">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.unlockApiHeadersPropValue3" title="@Strings.UnlockApiHeadersValue3">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.unlockApiHeadersPropKey4" title="@Strings.UnlockApiHeadersKey4">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.unlockApiHeadersPropValue4" title="@Strings.UnlockApiHeadersValue4">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.unlockApiHeadersPropKey5" title="@Strings.UnlockApiHeadersKey5">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-        <setting propertyKey="@Properties.unlockApiHeadersPropValue5" title="@Strings.UnlockApiHeadersValue5">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-    </group>
+    <setting propertyKey="@Properties.lockApiUriProp" title="@Strings.LockApiUri">
+        <settingConfig type="url" />
+    </setting>
+    <setting propertyKey="@Properties.lockApiMethodProp" title="@Strings.LockApiMethod">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Get</listEntry>
+            <listEntry value="1">@Strings.Post</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.lockApiParamsPropKey1" title="@Strings.LockApiParamsKey1">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.lockApiParamsPropValue1" title="@Strings.LockApiParamsValue1">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.lockApiParamsPropKey2" title="@Strings.LockApiParamsKey2">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.lockApiParamsPropValue2" title="@Strings.LockApiParamsValue2">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.lockApiParamsPropKey3" title="@Strings.LockApiParamsKey3">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.lockApiParamsPropValue3" title="@Strings.LockApiParamsValue3">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.lockApiParamsPropKey4" title="@Strings.LockApiParamsKey4">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.lockApiParamsPropValue4" title="@Strings.LockApiParamsValue4">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.lockApiParamsPropKey5" title="@Strings.LockApiParamsKey5">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.lockApiParamsPropValue5" title="@Strings.LockApiParamsValue5">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+
+    <setting propertyKey="@Properties.lockApiHeadersPropKey1" title="@Strings.LockApiHeadersKey1">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.lockApiHeadersPropValue1" title="@Strings.LockApiHeadersValue1">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.lockApiHeadersPropKey2" title="@Strings.LockApiHeadersKey2">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.lockApiHeadersPropValue2" title="@Strings.LockApiHeadersValue2">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.lockApiHeadersPropKey3" title="@Strings.LockApiHeadersKey3">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.lockApiHeadersPropValue3" title="@Strings.LockApiHeadersValue3">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.lockApiHeadersPropKey4" title="@Strings.LockApiHeadersKey4">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.lockApiHeadersPropValue4" title="@Strings.LockApiHeadersValue4">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.lockApiHeadersPropKey5" title="@Strings.LockApiHeadersKey5">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.lockApiHeadersPropValue5" title="@Strings.LockApiHeadersValue5">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+
+
+    <setting propertyKey="@Properties.unlockApiUriProp" title="@Strings.UnlockApiUri">
+        <settingConfig type="url" />
+    </setting>
+    <setting propertyKey="@Properties.unlockApiMethodProp" title="@Strings.UnlockApiMethod">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Get</listEntry>
+            <listEntry value="1">@Strings.Post</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.unlockApiParamsPropKey1" title="@Strings.UnlockApiParamsKey1">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.unlockApiParamsPropValue1" title="@Strings.UnlockApiParamsValue1">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.unlockApiParamsPropKey2" title="@Strings.UnlockApiParamsKey2">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.unlockApiParamsPropValue2" title="@Strings.UnlockApiParamsValue2">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.unlockApiParamsPropKey3" title="@Strings.UnlockApiParamsKey3">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.unlockApiParamsPropValue3" title="@Strings.UnlockApiParamsValue3">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.unlockApiParamsPropKey4" title="@Strings.UnlockApiParamsKey4">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.unlockApiParamsPropValue4" title="@Strings.UnlockApiParamsValue4">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.unlockApiParamsPropKey5" title="@Strings.UnlockApiParamsKey5">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.unlockApiParamsPropValue5" title="@Strings.UnlockApiParamsValue5">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    
+    <setting propertyKey="@Properties.unlockApiHeadersPropKey1" title="@Strings.UnlockApiHeadersKey1">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.unlockApiHeadersPropValue1" title="@Strings.UnlockApiHeadersValue1">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.unlockApiHeadersPropKey2" title="@Strings.UnlockApiHeadersKey2">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.unlockApiHeadersPropValue2" title="@Strings.UnlockApiHeadersValue2">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.unlockApiHeadersPropKey3" title="@Strings.UnlockApiHeadersKey3">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.unlockApiHeadersPropValue3" title="@Strings.UnlockApiHeadersValue3">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.unlockApiHeadersPropKey4" title="@Strings.UnlockApiHeadersKey4">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.unlockApiHeadersPropValue4" title="@Strings.UnlockApiHeadersValue4">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.unlockApiHeadersPropKey5" title="@Strings.UnlockApiHeadersKey5">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.unlockApiHeadersPropValue5" title="@Strings.UnlockApiHeadersValue5">
+        <settingConfig type="alphaNumeric" />
+    </setting>
 
 </settings>
