@@ -1,5 +1,13 @@
 <properties>
-    <property id="appVersionProp" type="string">1.0.0</property>
+    <property id="appVersionProp" type="string">1.1.0</property>
+
+    <property id="refreshApiGroupDescription" type="string">-- V V V V V --------------------</property>
+    <property id="timeoutGroupDescription" type="string">-- V V V V V --------------------</property>
+    <property id="apiGroupDescription" type="string">-- V V V V V --------------------</property>
+    <property id="sesamiApiGroupDescription" type="string">-- V V V V V --------------------</property>
+    <property id="checkApiGroupDescription" type="string">-- V V V V V --------------------</property>
+    <property id="moveApiGroupDescription" type="string">-- V V V V V --------------------</property>
+
 
     <property id="dataUpdateTimeSecGlanceProp" type="number">30</property>
     <property id="dataUpdateTimeSecMainProp" type="number">20</property>

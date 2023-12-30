@@ -3,149 +3,143 @@
     <string id="AppVersionTitle" scope="foreground">App Version</string>
 
 
-    <string id="RefreshApiGroup" scope="foreground">Display information update settings.</string>
-    <string id="RefreshApiGroupDescription" scope="foreground">Settings items related to display information update.</string>
+    <string id="RefreshApiGroup" scope="foreground">&lt;*&gt; Display information update settings.</string>
 
-    <string id="DataUpdateTimeSecGlance" scope="foreground">Refresh frequency of the widget list screen.(sec)</string>
-    <string id="DataUpdateTimeSecMain" scope="foreground">Refresh frequency of app screen updates.(sec)</string>
-    <string id="DataUpdateTimeMovingSecMain" scope="foreground">Refresh frequency of app screen updates during key operation.(sec)</string>
+    <string id="DataUpdateTimeSecGlance" scope="foreground">-  Refresh frequency of the widget list screen.(sec)</string>
+    <string id="DataUpdateTimeSecMain" scope="foreground">-  Refresh frequency of app screen updates.(sec)</string>
+    <string id="DataUpdateTimeMovingSecMain" scope="foreground">-  Refresh frequency of app screen updates during key operation.(sec)</string>
 
-    <string id="TimeoutGroup" scope="foreground">Timeout settings.</string>
-    <string id="TimeoutGroupDescription" scope="foreground">Settings items related to timeout.</string>
+    <string id="TimeoutGroup" scope="foreground">&lt;*&gt; Timeout settings.</string>
 
-    <string id="MovingTimeoutSecProp" scope="foreground">Time to get out of the key operation in progress.(sec)</string>
+    <string id="MovingTimeoutSecProp" scope="foreground">-  Time to get out of the key operation in progress.(sec)</string>
     
     
     <!--API-->
-    <string id="ApiGroup" scope="glance">API settings.</string>
-    <string id="ApiGroupDescription" scope="glance">Settings items related to api.</string>
+    <string id="ApiGroup" scope="glance">&lt;*&gt; API settings.</string>
 
-    <string id="UseApiModeProp" scope="glance">API operation mode.</string>
+    <string id="UseApiModeProp" scope="glance">-  API operation mode.</string>
 
     <!--SESAME API-->
-    <string id="SesamiApiGroup" scope="glance">SESAME API settings.</string>
-    <string id="SesamiApiGroupDescription" scope="glance">Settings when using the SESAME API.</string>
+    <string id="SesamiApiGroup" scope="glance">&lt;*&gt; SESAME API settings.</string>
 
-    <string id="SesamiHistoryName" scope="glance">Terminal name displayed in SESAME history.</string>
-    <string id="SesamiQRCode" scope="glance">String when scanning SESAME's QR code.(Authority is manager or above.)</string>
-    <string id="SesamiApiKey" scope="glance">SESAME API Key.</string>
+    <string id="SesamiHistoryName" scope="glance">-  Terminal name displayed in SESAME history.</string>
+    <string id="SesamiQRCode" scope="glance">-  String when scanning SESAME's QR code.(Authority is manager or above.)</string>
+    <string id="SesamiApiKey" scope="glance">-  SESAME API Key.</string>
 
     <!--カスタムAPI-->
-    <string id="CheckApiGroup" scope="foreground">Current status acquisition function settings.</string>
-    <string id="CheckApiGroupDescription" scope="foreground">Settings items related to the current status acquisition function.</string>
+    <string id="CheckApiGroup" scope="foreground">&lt;*&gt; Current status acquisition function settings.</string>
 
-    <string id="CheckApiUri" scope="foreground">WebAPI call URI.(get current status)</string>
-    <string id="CheckApiMethod" scope="foreground">WebAPI method.(get current status)</string>
-    <string id="CheckApiParamsKey1" scope="foreground">Parameter key1 of the current status acquisition WebAPI.</string>
-    <string id="CheckApiParamsValue1" scope="foreground">Parameter value1 of the current status acquisition WebAPI.</string>
-    <string id="CheckApiParamsKey2" scope="foreground">Parameter key2 of the current status acquisition WebAPI.</string>
-    <string id="CheckApiParamsValue2" scope="foreground">Parameter value2 of the current status acquisition WebAPI.</string>
-    <string id="CheckApiParamsKey3" scope="foreground">Parameter key3 of the current status acquisition WebAPI.</string>
-    <string id="CheckApiParamsValue3" scope="foreground">Parameter value3 of the current status acquisition WebAPI.</string>
-    <string id="CheckApiParamsKey4" scope="foreground">Parameter key4 of the current status acquisition WebAPI.</string>
-    <string id="CheckApiParamsValue4" scope="foreground">Parameter value4 of the current status acquisition WebAPI.</string>
-    <string id="CheckApiParamsKey5" scope="foreground">Parameter key5 of the current status acquisition WebAPI.</string>
-    <string id="CheckApiParamsValue5" scope="foreground">Parameter value5 of the current status acquisition WebAPI.</string>
+    <string id="CheckApiUri" scope="foreground">-  WebAPI call URI.(get current status)</string>
+    <string id="CheckApiMethod" scope="foreground">-  WebAPI method.(get current status)</string>
+    <string id="CheckApiParamsKey1" scope="foreground">-  Parameter key1 of the current status acquisition WebAPI.</string>
+    <string id="CheckApiParamsValue1" scope="foreground">-  ==&gt;Parameter value1 of the current status acquisition WebAPI.</string>
+    <string id="CheckApiParamsKey2" scope="foreground">-  Parameter key2 of the current status acquisition WebAPI.</string>
+    <string id="CheckApiParamsValue2" scope="foreground">-  ==&gt;Parameter value2 of the current status acquisition WebAPI.</string>
+    <string id="CheckApiParamsKey3" scope="foreground">-  Parameter key3 of the current status acquisition WebAPI.</string>
+    <string id="CheckApiParamsValue3" scope="foreground">-  ==&gt;Parameter value3 of the current status acquisition WebAPI.</string>
+    <string id="CheckApiParamsKey4" scope="foreground">-  Parameter key4 of the current status acquisition WebAPI.</string>
+    <string id="CheckApiParamsValue4" scope="foreground">-  ==&gt;Parameter value4 of the current status acquisition WebAPI.</string>
+    <string id="CheckApiParamsKey5" scope="foreground">-  Parameter key5 of the current status acquisition WebAPI.</string>
+    <string id="CheckApiParamsValue5" scope="foreground">-  ==&gt;Parameter value5 of the current status acquisition WebAPI.</string>
     
-    <string id="CheckApiHeadersKey1" scope="foreground">Header key1 of the current status acquisition WebAPI.</string>
-    <string id="CheckApiHeadersValue1" scope="foreground">Header value1 of the current status acquisition WebAPI.</string>
-    <string id="CheckApiHeadersKey2" scope="foreground">Header key2 of the current status acquisition WebAPI.</string>
-    <string id="CheckApiHeadersValue2" scope="foreground">Header value2 of the current status acquisition WebAPI.</string>
-    <string id="CheckApiHeadersKey3" scope="foreground">Header key3 of the current status acquisition WebAPI.</string>
-    <string id="CheckApiHeadersValue3" scope="foreground">Header value3 of the current status acquisition WebAPI.</string>
-    <string id="CheckApiHeadersKey4" scope="foreground">Header key4 of the current status acquisition WebAPI.</string>
-    <string id="CheckApiHeadersValue4" scope="foreground">Header value4 of the current status acquisition WebAPI.</string>
-    <string id="CheckApiHeadersKey5" scope="foreground">Header key5 of the current status acquisition WebAPI.</string>
-    <string id="CheckApiHeadersValue5" scope="foreground">Header value5 of the current status acquisition WebAPI.</string>
+    <string id="CheckApiHeadersKey1" scope="foreground">-  Header key1 of the current status acquisition WebAPI.</string>
+    <string id="CheckApiHeadersValue1" scope="foreground">-  ==&gt;Header value1 of the current status acquisition WebAPI.</string>
+    <string id="CheckApiHeadersKey2" scope="foreground">-  Header key2 of the current status acquisition WebAPI.</string>
+    <string id="CheckApiHeadersValue2" scope="foreground">-  ==&gt;Header value2 of the current status acquisition WebAPI.</string>
+    <string id="CheckApiHeadersKey3" scope="foreground">-  Header key3 of the current status acquisition WebAPI.</string>
+    <string id="CheckApiHeadersValue3" scope="foreground">-  ==&gt;Header value3 of the current status acquisition WebAPI.</string>
+    <string id="CheckApiHeadersKey4" scope="foreground">-  Header key4 of the current status acquisition WebAPI.</string>
+    <string id="CheckApiHeadersValue4" scope="foreground">-  ==&gt;Header value4 of the current status acquisition WebAPI.</string>
+    <string id="CheckApiHeadersKey5" scope="foreground">-  Header key5 of the current status acquisition WebAPI.</string>
+    <string id="CheckApiHeadersValue5" scope="foreground">-  ==&gt;Header value5 of the current status acquisition WebAPI.</string>
 
-    <string id="CheckApiParamLockedKey" scope="foreground">Key of parameter indicating "locked" in the current status acquisition WebAPI.</string>
-    <string id="CheckApiParamLockedValue" scope="foreground">Value of parameter indicating "locked" in the current status acquisition WebAPI.</string>
+    <string id="CheckApiParamLockedKey" scope="foreground">-  Key of parameter indicating "locked" in the current status acquisition WebAPI.</string>
+    <string id="CheckApiParamLockedValue" scope="foreground">-  Value of parameter indicating "locked" in the current status acquisition WebAPI.</string>
 
-    <string id="CheckApiParamUnlockedKey" scope="foreground">Key of parameter indicating "unlocked" in the Get Current Status WebAPI.</string>
-    <string id="CheckApiParamUnlockedValue" scope="foreground">Value of parameter indicating "unlocked" in the current status acquisition WebAPI.</string>
+    <string id="CheckApiParamUnlockedKey" scope="foreground">-  Key of parameter indicating "unlocked" in the Get Current Status WebAPI.</string>
+    <string id="CheckApiParamUnlockedValue" scope="foreground">-  Value of parameter indicating "unlocked" in the current status acquisition WebAPI.</string>
 
-    <string id="CheckApiParamMovingKey" scope="foreground">Key of parameter indicating "Moving" in the Get Current Status WebAPI.</string>
-    <string id="CheckApiParamMovingValue" scope="foreground">Value of parameter indicating "Moving" in the current status acquisition WebAPI.</string>
+    <string id="CheckApiParamMovingKey" scope="foreground">-  Key of parameter indicating "Moving" in the Get Current Status WebAPI.</string>
+    <string id="CheckApiParamMovingValue" scope="foreground">-  Value of parameter indicating "Moving" in the current status acquisition WebAPI.</string>
 
 
-    <string id="MoveApiGroup" scope="foreground">Key operation settings.</string>
-    <string id="MoveApiGroupDescription" scope="foreground">Settings items related to key operation.</string>
+    <string id="MoveApiGroup" scope="foreground">&lt;*&gt; Key operation settings.</string>
 
-    <string id="MoveMode" scope="foreground">Setting the key operation mode.</string>
+    <string id="MoveMode" scope="foreground">-  Setting the key operation mode.</string>
 
-    <string id="ToggleApiUri" scope="foreground">WebAPI call URI.(toggle operation)</string>
-    <string id="ToggleApiMethod" scope="foreground">WebAPI method.(toggle operation)</string>
-    <string id="ToggleApiParamsKey1" scope="foreground">Parameter key1 of toggle operation WebAPI.</string>
-    <string id="ToggleApiParamsValue1" scope="foreground">Parameter value1 of toggle operation WebAPI.</string>
-    <string id="ToggleApiParamsKey2" scope="foreground">Parameter key2 of toggle operation WebAPI.</string>
-    <string id="ToggleApiParamsValue2" scope="foreground">Parameter value2 of toggle operation WebAPI.</string>
-    <string id="ToggleApiParamsKey3" scope="foreground">Parameter key3 of toggle operation WebAPI.</string>
-    <string id="ToggleApiParamsValue3" scope="foreground">Parameter value3 of toggle operation WebAPI.</string>
-    <string id="ToggleApiParamsKey4" scope="foreground">Parameter key4 of toggle operation WebAPI.</string>
-    <string id="ToggleApiParamsValue4" scope="foreground">Parameter value4 of toggle operation WebAPI.</string>
-    <string id="ToggleApiParamsKey5" scope="foreground">Parameter key5 of toggle operation WebAPI.</string>
-    <string id="ToggleApiParamsValue5" scope="foreground">Parameter value5 of toggle operation WebAPI.</string>
+    <string id="ToggleApiUri" scope="foreground">-  WebAPI call URI.(toggle operation)</string>
+    <string id="ToggleApiMethod" scope="foreground">-  WebAPI method.(toggle operation)</string>
+    <string id="ToggleApiParamsKey1" scope="foreground">-  Parameter key1 of toggle operation WebAPI.</string>
+    <string id="ToggleApiParamsValue1" scope="foreground">-  ==&gt;Parameter value1 of toggle operation WebAPI.</string>
+    <string id="ToggleApiParamsKey2" scope="foreground">-  Parameter key2 of toggle operation WebAPI.</string>
+    <string id="ToggleApiParamsValue2" scope="foreground">-  ==&gt;Parameter value2 of toggle operation WebAPI.</string>
+    <string id="ToggleApiParamsKey3" scope="foreground">-  Parameter key3 of toggle operation WebAPI.</string>
+    <string id="ToggleApiParamsValue3" scope="foreground">-  ==&gt;Parameter value3 of toggle operation WebAPI.</string>
+    <string id="ToggleApiParamsKey4" scope="foreground">-  Parameter key4 of toggle operation WebAPI.</string>
+    <string id="ToggleApiParamsValue4" scope="foreground">-  ==&gt;Parameter value4 of toggle operation WebAPI.</string>
+    <string id="ToggleApiParamsKey5" scope="foreground">-  Parameter key5 of toggle operation WebAPI.</string>
+    <string id="ToggleApiParamsValue5" scope="foreground">-  ==&gt;Parameter value5 of toggle operation WebAPI.</string>
     
-    <string id="ToggleApiHeadersKey1" scope="foreground">Header key1 of toggle operation WebAPI.</string>
-    <string id="ToggleApiHeadersValue1" scope="foreground">Header value1 of toggle operation WebAPI.</string>
-    <string id="ToggleApiHeadersKey2" scope="foreground">Header key2 of toggle operation WebAPI.</string>
-    <string id="ToggleApiHeadersValue2" scope="foreground">Header value2 of toggle operation WebAPI.</string>
-    <string id="ToggleApiHeadersKey3" scope="foreground">Header key3 of toggle operation WebAPI.</string>
-    <string id="ToggleApiHeadersValue3" scope="foreground">Header value3 of toggle operation WebAPI.</string>
-    <string id="ToggleApiHeadersKey4" scope="foreground">Header key4 of toggle operation WebAPI.</string>
-    <string id="ToggleApiHeadersValue4" scope="foreground">Header value4 of toggle operation WebAPI.</string>
-    <string id="ToggleApiHeadersKey5" scope="foreground">Header key5 of toggle operation WebAPI.</string>
-    <string id="ToggleApiHeadersValue5" scope="foreground">Header value5 of toggle operation WebAPI.</string>
+    <string id="ToggleApiHeadersKey1" scope="foreground">-  Header key1 of toggle operation WebAPI.</string>
+    <string id="ToggleApiHeadersValue1" scope="foreground">-  ==&gt;Header value1 of toggle operation WebAPI.</string>
+    <string id="ToggleApiHeadersKey2" scope="foreground">-  Header key2 of toggle operation WebAPI.</string>
+    <string id="ToggleApiHeadersValue2" scope="foreground">-  ==&gt;Header value2 of toggle operation WebAPI.</string>
+    <string id="ToggleApiHeadersKey3" scope="foreground">-  Header key3 of toggle operation WebAPI.</string>
+    <string id="ToggleApiHeadersValue3" scope="foreground">-  ==&gt;Header value3 of toggle operation WebAPI.</string>
+    <string id="ToggleApiHeadersKey4" scope="foreground">-  Header key4 of toggle operation WebAPI.</string>
+    <string id="ToggleApiHeadersValue4" scope="foreground">-  ==&gt;Header value4 of toggle operation WebAPI.</string>
+    <string id="ToggleApiHeadersKey5" scope="foreground">-  Header key5 of toggle operation WebAPI.</string>
+    <string id="ToggleApiHeadersValue5" scope="foreground">-  ==&gt;Header value5 of toggle operation WebAPI.</string>
 
 
-    <string id="LockApiUri" scope="foreground">WebAPI call URI.(locking operation)</string>
-    <string id="LockApiMethod" scope="foreground">WebAPI method.(locking operation)</string>
-    <string id="LockApiParamsKey1" scope="foreground">Parameter key1 of locking operation WebAPI.</string>
-    <string id="LockApiParamsValue1" scope="foreground">Parameter value1 of locking operation WebAPI.</string>
-    <string id="LockApiParamsKey2" scope="foreground">Parameter key2 of locking operation WebAPI.</string>
-    <string id="LockApiParamsValue2" scope="foreground">Parameter value2 of locking operation WebAPI.</string>
-    <string id="LockApiParamsKey3" scope="foreground">Parameter key3 of locking operation WebAPI.</string>
-    <string id="LockApiParamsValue3" scope="foreground">Parameter value3 of locking operation WebAPI.</string>
-    <string id="LockApiParamsKey4" scope="foreground">Parameter key4 of locking operation WebAPI.</string>
-    <string id="LockApiParamsValue4" scope="foreground">Parameter value4 of locking operation WebAPI.</string>
-    <string id="LockApiParamsKey5" scope="foreground">Parameter key5 of locking operation WebAPI.</string>
-    <string id="LockApiParamsValue5" scope="foreground">Parameter value5 of locking operation WebAPI.</string>
+    <string id="LockApiUri" scope="foreground">-  WebAPI call URI.(locking operation)</string>
+    <string id="LockApiMethod" scope="foreground">-  WebAPI method.(locking operation)</string>
+    <string id="LockApiParamsKey1" scope="foreground">-  Parameter key1 of locking operation WebAPI.</string>
+    <string id="LockApiParamsValue1" scope="foreground">-  ==&gt;Parameter value1 of locking operation WebAPI.</string>
+    <string id="LockApiParamsKey2" scope="foreground">-  Parameter key2 of locking operation WebAPI.</string>
+    <string id="LockApiParamsValue2" scope="foreground">-  ==&gt;Parameter value2 of locking operation WebAPI.</string>
+    <string id="LockApiParamsKey3" scope="foreground">-  Parameter key3 of locking operation WebAPI.</string>
+    <string id="LockApiParamsValue3" scope="foreground">-  ==&gt;Parameter value3 of locking operation WebAPI.</string>
+    <string id="LockApiParamsKey4" scope="foreground">-  Parameter key4 of locking operation WebAPI.</string>
+    <string id="LockApiParamsValue4" scope="foreground">-  ==&gt;Parameter value4 of locking operation WebAPI.</string>
+    <string id="LockApiParamsKey5" scope="foreground">-  Parameter key5 of locking operation WebAPI.</string>
+    <string id="LockApiParamsValue5" scope="foreground">-  ==&gt;Parameter value5 of locking operation WebAPI.</string>
 
-    <string id="LockApiHeadersKey1" scope="foreground">Header key1 of locking operation WebAPI.</string>
-    <string id="LockApiHeadersValue1" scope="foreground">Header value1 of locking operation WebAPI.</string>
-    <string id="LockApiHeadersKey2" scope="foreground">Header key2 of locking operation WebAPI.</string>
-    <string id="LockApiHeadersValue2" scope="foreground">Header value2 of locking operation WebAPI.</string>
-    <string id="LockApiHeadersKey3" scope="foreground">Header key3 of locking operation WebAPI.</string>
-    <string id="LockApiHeadersValue3" scope="foreground">Header value3 of locking operation WebAPI.</string>
-    <string id="LockApiHeadersKey4" scope="foreground">Header key4 of locking operation WebAPI.</string>
-    <string id="LockApiHeadersValue4" scope="foreground">Header value4 of locking operation WebAPI.</string>
-    <string id="LockApiHeadersKey5" scope="foreground">Header key5 of locking operation WebAPI.</string>
-    <string id="LockApiHeadersValue5" scope="foreground">Header value5 of locking operation WebAPI.</string>
+    <string id="LockApiHeadersKey1" scope="foreground">-  Header key1 of locking operation WebAPI.</string>
+    <string id="LockApiHeadersValue1" scope="foreground">-  ==&gt;Header value1 of locking operation WebAPI.</string>
+    <string id="LockApiHeadersKey2" scope="foreground">-  Header key2 of locking operation WebAPI.</string>
+    <string id="LockApiHeadersValue2" scope="foreground">-  ==&gt;Header value2 of locking operation WebAPI.</string>
+    <string id="LockApiHeadersKey3" scope="foreground">-  Header key3 of locking operation WebAPI.</string>
+    <string id="LockApiHeadersValue3" scope="foreground">-  ==&gt;Header value3 of locking operation WebAPI.</string>
+    <string id="LockApiHeadersKey4" scope="foreground">-  Header key4 of locking operation WebAPI.</string>
+    <string id="LockApiHeadersValue4" scope="foreground">-  ==&gt;Header value4 of locking operation WebAPI.</string>
+    <string id="LockApiHeadersKey5" scope="foreground">-  Header key5 of locking operation WebAPI.</string>
+    <string id="LockApiHeadersValue5" scope="foreground">-  ==&gt;Header value5 of locking operation WebAPI.</string>
 
 
-    <string id="UnlockApiUri" scope="foreground">WebAPI call URI.(unlock operation)</string>
-    <string id="UnlockApiMethod" scope="foreground">WebAPI method.(unlock operation)</string>
-    <string id="UnlockApiParamsKey1" scope="foreground">Parameter key1 of unlock operation WebAPI.</string>
-    <string id="UnlockApiParamsValue1" scope="foreground">Parameter value1 of unlock operation WebAPI.</string>
-    <string id="UnlockApiParamsKey2" scope="foreground">Parameter key2 of unlock operation WebAPI.</string>
-    <string id="UnlockApiParamsValue2" scope="foreground">Parameter value2 of unlock operation WebAPI.</string>
-    <string id="UnlockApiParamsKey3" scope="foreground">Parameter key3 of unlock operation WebAPI.</string>
-    <string id="UnlockApiParamsValue3" scope="foreground">Parameter value3 of unlock operation WebAPI.</string>
-    <string id="UnlockApiParamsKey4" scope="foreground">Parameter key4 of unlock operation WebAPI.</string>
-    <string id="UnlockApiParamsValue4" scope="foreground">Parameter value4 of unlock operation WebAPI.</string>
-    <string id="UnlockApiParamsKey5" scope="foreground">Parameter key5 of unlock operation WebAPI.</string>
-    <string id="UnlockApiParamsValue5" scope="foreground">Parameter value5 of unlock operation WebAPI.</string>
+    <string id="UnlockApiUri" scope="foreground">-  WebAPI call URI.(unlock operation)</string>
+    <string id="UnlockApiMethod" scope="foreground">-  WebAPI method.(unlock operation)</string>
+    <string id="UnlockApiParamsKey1" scope="foreground">-  Parameter key1 of unlock operation WebAPI.</string>
+    <string id="UnlockApiParamsValue1" scope="foreground">-  ==&gt;Parameter value1 of unlock operation WebAPI.</string>
+    <string id="UnlockApiParamsKey2" scope="foreground">-  Parameter key2 of unlock operation WebAPI.</string>
+    <string id="UnlockApiParamsValue2" scope="foreground">-  ==&gt;Parameter value2 of unlock operation WebAPI.</string>
+    <string id="UnlockApiParamsKey3" scope="foreground">-  Parameter key3 of unlock operation WebAPI.</string>
+    <string id="UnlockApiParamsValue3" scope="foreground">-  ==&gt;Parameter value3 of unlock operation WebAPI.</string>
+    <string id="UnlockApiParamsKey4" scope="foreground">-  Parameter key4 of unlock operation WebAPI.</string>
+    <string id="UnlockApiParamsValue4" scope="foreground">-  ==&gt;Parameter value4 of unlock operation WebAPI.</string>
+    <string id="UnlockApiParamsKey5" scope="foreground">-  Parameter key5 of unlock operation WebAPI.</string>
+    <string id="UnlockApiParamsValue5" scope="foreground">-  ==&gt;Parameter value5 of unlock operation WebAPI.</string>
     
-    <string id="UnlockApiHeadersKey1" scope="foreground">Header key1 of unlock operation WebAPI.</string>
-    <string id="UnlockApiHeadersValue1" scope="foreground">Header value1 of unlock operation WebAPI.</string>
-    <string id="UnlockApiHeadersKey2" scope="foreground">Header key2 of unlock operation WebAPI.</string>
-    <string id="UnlockApiHeadersValue2" scope="foreground">Header value2 of unlock operation WebAPI.</string>
-    <string id="UnlockApiHeadersKey3" scope="foreground">Header key3 of unlock operation WebAPI.</string>
-    <string id="UnlockApiHeadersValue3" scope="foreground">Header value3 of unlock operation WebAPI.</string>
-    <string id="UnlockApiHeadersKey4" scope="foreground">Header key4 of unlock operation WebAPI.</string>
-    <string id="UnlockApiHeadersValue4" scope="foreground">Header value4 of unlock operation WebAPI.</string>
-    <string id="UnlockApiHeadersKey5" scope="foreground">Header key5 of unlock operation WebAPI.</string>
-    <string id="UnlockApiHeadersValue5" scope="foreground">Header value5 of unlock operation WebAPI.</string>
+    <string id="UnlockApiHeadersKey1" scope="foreground">-  Header key1 of unlock operation WebAPI.</string>
+    <string id="UnlockApiHeadersValue1" scope="foreground">-  ==&gt;Header value1 of unlock operation WebAPI.</string>
+    <string id="UnlockApiHeadersKey2" scope="foreground">-  Header key2 of unlock operation WebAPI.</string>
+    <string id="UnlockApiHeadersValue2" scope="foreground">-  ==&gt;Header value2 of unlock operation WebAPI.</string>
+    <string id="UnlockApiHeadersKey3" scope="foreground">-  Header key3 of unlock operation WebAPI.</string>
+    <string id="UnlockApiHeadersValue3" scope="foreground">-  ==&gt;Header value3 of unlock operation WebAPI.</string>
+    <string id="UnlockApiHeadersKey4" scope="foreground">-  Header key4 of unlock operation WebAPI.</string>
+    <string id="UnlockApiHeadersValue4" scope="foreground">-  ==&gt;Header value4 of unlock operation WebAPI.</string>
+    <string id="UnlockApiHeadersKey5" scope="foreground">-  Header key5 of unlock operation WebAPI.</string>
+    <string id="UnlockApiHeadersValue5" scope="foreground">-  ==&gt;Header value5 of unlock operation WebAPI.</string>
     
 
     <!--内部設定値-->
