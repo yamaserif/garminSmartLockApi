@@ -1,6 +1,6 @@
-using Toybox.WatchUi;
-using ContProperties;
-using ApiCommunications;
+import Toybox.WatchUi;
+import ContProperties;
+import ApiCommunications;
 
 class GarminSmartLockApiBehaviorDelegate extends WatchUi.BehaviorDelegate {
 

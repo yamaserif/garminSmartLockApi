@@ -1,5 +1,7 @@
-using Toybox.Application;
-using ApiCommunications;
+import Toybox.Lang;
+import Toybox.WatchUi;
+import Toybox.Application;
+import ApiCommunications;
 
 // ウィジェットなのでglanceの機能を使用する
 (:glance)
@@ -19,7 +21,7 @@ class GarminSmartLockApiApp extends Application.AppBase {
     }
 
     // Return the initial view of your application here
-    function getInitialView() as Array<Views or BehaviorDelegates>? {
+    function getInitialView() as Array<Views or InputDelegates>? {
         var garminSmartLockApiView = new GarminSmartLockApiView();
         var garminSmartLockApiBehaviorDelegate = new GarminSmartLockApiBehaviorDelegate();
 
@@ -28,11 +30,11 @@ class GarminSmartLockApiApp extends Application.AppBase {
         return [
             garminSmartLockApiView,
             garminSmartLockApiBehaviorDelegate
-        ] as Array<Views or BehaviorDelegates>;
+        ] as Array<Views or InputDelegates>;
     }
 
     // glanceの表示内容
-    function getGlanceView() as Array<GlanceView>? {
+    function getGlanceView() as Array<GlanceView or GlanceViewDelegate>? {
         var garminSmartLockApiViewGlanceView = new GarminSmartLockApiViewGlanceView();
 
         return [

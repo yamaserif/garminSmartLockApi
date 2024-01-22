@@ -1,5 +1,5 @@
-using Toybox.StringUtil;
-using ApiCommunications;
+import Toybox.StringUtil;
+import ApiCommunications;
 
 (:glance)
 class DataParseCallbacks {
