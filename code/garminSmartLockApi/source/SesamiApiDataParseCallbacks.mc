@@ -1,4 +1,4 @@
-using ApiCommunications;
+import ApiCommunications;
 
 (:glance)
 class SesamiApiDataParseCallbacks {

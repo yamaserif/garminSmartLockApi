@@ -139,7 +139,7 @@ module SesamiApiCommunications {
         var date = Time.now().value().toNumber();
 
         var message = new [4]b;
-        message.encodeNumber(date, Lang.NUMBER_FORMAT_UINT32, null);
+        message.encodeNumber(date, Lang.NUMBER_FORMAT_UINT32, {});
         return message.slice(1, 4);
     }
 

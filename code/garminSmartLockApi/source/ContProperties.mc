@@ -1,4 +1,5 @@
-using Toybox.Application.Properties;
+import Toybox.Lang;
+import Toybox.Application.Properties;
 
 (:glance)
 module ContProperties {

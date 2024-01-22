@@ -1,5 +1,6 @@
-using Toybox.Graphics;
-using Toybox.WatchUi;
+import Toybox.Lang;
+import Toybox.Graphics;
+import Toybox.WatchUi;
 
 class TaskCountIcon extends WatchUi.Drawable {
 
