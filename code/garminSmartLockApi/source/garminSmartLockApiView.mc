@@ -1,8 +1,8 @@
-using Toybox.Graphics;
-using Toybox.WatchUi;
-using Toybox.Timer;
-using ContProperties;
-using ApiCommunications;
+import Toybox.Graphics;
+import Toybox.WatchUi;
+import Toybox.Timer;
+import ContProperties;
+import ApiCommunications;
 
 class GarminSmartLockApiView extends WatchUi.View {
     var settings = {};

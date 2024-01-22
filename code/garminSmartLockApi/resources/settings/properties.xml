@@ -1,5 +1,5 @@
 <properties>
-    <property id="appVersionProp" type="string">1.1.0</property>
+    <property id="appVersionProp" type="string">1.2.0</property>
 
     <property id="refreshApiGroupDescription" type="string">-- V V V V V --------------------</property>
     <property id="timeoutGroupDescription" type="string">-- V V V V V --------------------</property>

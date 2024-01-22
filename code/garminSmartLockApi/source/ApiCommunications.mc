@@ -1,6 +1,6 @@
-using Toybox.Communications;
-using ContProperties;
-using SesamiApiCommunications;
+import Toybox.Communications;
+import ContProperties;
+import SesamiApiCommunications;
 
 (:glance)
 module ApiCommunications {
